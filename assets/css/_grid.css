@@ -1,0 +1,33 @@
+.grid-container {
+    display: grid;
+    background-color: lightsalmon;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 5px;
+    row-gap: 10px;
+
+}
+
+.grid-item {
+    background-color: white;
+    border: 1px solid black;
+    margin: 10px;
+
+}
+
+.grid-title {
+    background-color: transparent;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+.div/div/h3 {
+    font: bold;
+}

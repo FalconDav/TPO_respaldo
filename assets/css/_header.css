@@ -1,0 +1,23 @@
+html{
+   box-sizing: border-box;
+}
+
+@font-face {
+   font-family: 'Dancing Script', cursive;
+   src: url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@1,900&family=Rubik+Iso&display=swap');
+ }
+ 
+ header {
+   font-family: 'Dancing Script', cursive;
+   font-size: 24px;
+   color: #000;
+   background-color: aqua;
+   text-align: center;
+   text-shadow: 2px 2px 2px black;
+   height: auto;
+   left: auto;
+   border: 10px;
+ }
+
+
+

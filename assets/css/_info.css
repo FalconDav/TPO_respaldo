@@ -1,0 +1,44 @@
+
+
+h1{
+    text-align: center;
+}
+
+
+.oferta-parque {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  padding: auto;
+  background-color: antiquewhite;
+
+
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h3 {
+  text-align: center;
+  color: black;
+  font-size: x-large;
+}
+
+.img {
+  width: 500px;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  font-size:x-large;
+  justify-content: center;
+  color: brown;
+}

@@ -1,6 +1,18 @@
-html{
-   box-sizing: border-box;
+
+nav {
+  
+  
+  position:fixed;
+  
 }
+
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+}
+
 
 @font-face {
    font-family: 'Dancing Script', cursive;

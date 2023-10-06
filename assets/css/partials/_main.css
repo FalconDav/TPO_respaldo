@@ -8,4 +8,54 @@
     margin: auto;
   }
   */
+
+  html {
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+}
+section {
+  background-color:cyan;
+}
+
+img {
+  width: 400px;
+  height: 250px;
   
+}
+
+h1 {
+    font-size: 4rem;
+}
+.card {
+  max-width: 500px;
+  align-items: center;
+  padding: 20px;
+  
+  margin: 0 auto;
+  
+}
+  
+  .oferta-parque {
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+  
+@media (min-width: 480px) {
+  .oferta-parque {
+      display: grid;
+      grid-template-columns: 2fr 2fr;
+      
+      column-gap: 1rem;
+      
+      
+  }
+}

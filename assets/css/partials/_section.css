@@ -12,7 +12,10 @@ principal {
     margin: 20px;
     padding: 20px;;
 }
-
+.texto {
+    color:black;
+    text-align: center;
+}
 /*.entrada-blog a {
     display: inline-block;
     background-color: #2196F3;
@@ -30,7 +33,7 @@ principal {
         flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 }
     /*.entrada-blog {
